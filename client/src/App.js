@@ -12,7 +12,8 @@ import PostGame from './PostGame';
 
 // socket stuff
 import io from "socket.io-client";
-export const socket = io("INPUT YOUR OWN SERVER ADDRESS HERE", {
+// replace "https://localhost3001/" with own server domain if running online
+export const socket = io("https://localhost3001/", {
   extraHeaders: {
     'Access-Control-Allow-Origin': '*'
   }
