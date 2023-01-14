@@ -1,0 +1,604 @@
+body {
+  background-color: #404258;
+}
+
+.App {
+  text-align: center;
+}
+
+/* MainMenu Page*/
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+  color: white;
+  text-shadow: 1px 1px #202020;
+}
+
+.menu-title {
+  font-size: 4em;
+}
+
+.menu-text {
+  font-size: 1.6em;
+}
+
+.menu-text a, a:visited, a:hover {
+  color: white;
+}
+
+.main-menu-form {
+  margin-top: 10px;
+}
+
+.main-menu-username-input {
+  height: 40px;
+  padding: 0 10px;
+  background-color: lightgray;
+  color: #202020;
+  border-color: #202020;
+  border-radius: 5px 0 0 5px;
+}
+
+.main-menu-username-input::placeholder {
+  color: #202020;
+}
+
+.main-menu-room-input {
+  padding: 0 10px;
+  height: 40px;
+  background-color: lightgray;
+  color: #202020;
+  border-color: #202020;
+  border-left: none;
+  border-right: none;
+}
+
+.main-menu-room-input::placeholder {
+  color: #202020;
+}
+
+.main-menu-submit-btn {
+  padding: 0 10px;
+  height: 40px;
+  background-color: lightgray;
+  color: #202020;
+  border-color: #202020;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  background-color: #C7BCA1;
+}
+
+.main-menu-submit-btn:hover {
+  background-color: #8B7E74;
+  color: black;
+}
+
+/* Lobby Page */
+
+.lobby-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.lobby-container h1 {
+  color: white;
+  text-shadow: 1px 1px #202020;
+  font-size: 4em;
+}
+
+.start-game-btn {
+  margin-top: 10px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  background-color: #C7BCA1;
+  cursor: pointer;
+  color: #202020;
+}
+
+.start-game-btn:hover {
+  background-color: #8B7E74;
+  color: black;
+}
+
+/* LobbyPlayers */
+
+.lobby {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: #6B728E;
+}
+
+.lobby h3 {
+  text-decoration: underline;
+  color: black;
+}
+
+.player-list {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.player {
+  flex: 1 0 24%;
+  color: white;
+}
+
+/* Chat Box */
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 800px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 30px;
+  background-color: #6B728E;
+  padding: 20px;
+}
+
+.chat-header {
+  width: 60%;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #202020;
+  border: 3px solid #202020;
+  border-radius: 20px 20px 0 0;
+  background-color: darkgray;
+  padding-top: 3px;
+}
+
+.chat-body {
+  width: 60%;
+  height: 350px;
+  border-radius: 0 0 20px 20px;
+  border: 3px solid #202020;
+  border-top: 0;
+}
+
+.chat-body > div > button {
+  margin-right: 12px;
+}
+
+.message-container {
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  border-radius: 0 0 20px 20px;
+  color: #202020;
+  font-size: 0.9em;
+  background-color: lightgray;
+}
+
+.chat-footer {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 50%;
+}
+
+/* LobbyChat */
+
+#you {
+  color: darkblue;
+}
+
+#other {
+  color: darkred;
+}
+
+.message-author {
+  font-weight: bold;
+}
+
+.chat-input-box {
+  width: 80%;
+  background-color: lightgray;
+  color: #202020;
+  border-color: #202020;
+  border-radius: 5px 0 0 5px;
+  padding: 0 5px;
+}
+
+.chat-input-box::placeholder {
+  color: #202020;
+}
+
+.chat-send-box {
+  background-color: lightgray;
+  cursor: pointer;
+  border-color: #202020;
+  border-radius: 0 5px 5px 0;
+}
+
+/* StableDiffDemo Page */
+
+.img-generation-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.img-submit-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.img-submit-container h1 {
+  color: white;
+  text-shadow: 1px 1px #202020;
+  font-size: 4em;
+}
+
+.img-submit-container h4 {
+  color: lightgray;
+}
+
+.upload-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #6B728E;
+  border-radius: 30px;
+  padding: 0 20px 20px 20px;
+}
+
+.upload-form h2 {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#prompt-input {
+  text-align: center;
+  background-color: lightgray;
+  color: #202020;
+  border-color: #202020;
+  border-radius: 5px 5px 5px 5px;
+  padding: 0 5px;
+  height: 50px;
+  width: 300px;
+  font-size: 1em;
+}
+
+#prompt-input::placeholder {
+  color: #202020;
+}
+
+.help-text {
+  color: lightgray;
+}
+
+.upload-form label {
+  background-color: lightgray;
+}
+
+.upload-form span {
+  color: #202020 !important;
+}
+
+.stable-diff-submit-btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  background-color: #C7BCA1;
+  cursor: pointer;
+  color: #202020;
+  border-color: #202020;
+}
+
+.stable-diff-submit-btn:hover {
+  background-color: #8B7E74;
+  color: black;
+}
+
+.iframes {
+  display: flex;
+  justify-content: center;
+  background-color: #6B728E;
+  border-radius: 30px 30px 0 0;
+  width: 90%;
+}
+
+/* PreGame Page */
+
+.pregame-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pregame-container h1 {
+  color: white;
+  text-shadow: 1px 1px #202020;
+  font-size: 4em;
+}
+
+.pregame-container > h2 {
+  margin-top: 30px;
+  background-color: #6B728E;
+  border-radius: 50px;
+  height: 50px;
+  padding-top: 2px;
+  width: 450px;
+}
+
+.span1 {
+  color: rgb(82, 0, 0);
+}
+
+.span2 {
+  color: rgb(0, 66, 0);
+}
+
+.animation-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  gap: 40px;
+}
+
+.joke-container {
+  margin: 50px 25%;
+  color: lightgray;
+}
+
+.joke-container h2 {
+  margin-bottom: 100px;
+}
+
+.joke-container span {
+  color: #8B7E74;
+}
+
+.joke-setup {
+  color: #C7BCA1;
+}
+
+.main-joke {
+  margin-top: 50px;
+  color: #8B7E74;
+}
+
+/* Game Page */
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.game-header-container {
+  order: 1;
+}
+
+.game-header-container h1 {
+  color: white;
+  text-shadow: 1px 1px #202020;
+  font-size: 3.8em;
+  margin-bottom: 0;
+}
+
+.game-info {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.game-info .player h4 {
+  font-size: 1.2em;
+}
+
+.timer-container {
+  margin-right: 20px;
+  margin-top: 30px;
+  background-color: #C7BCA1;
+  border-radius: 300px;
+  height: auto;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.timer-container h4 {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.prompt-container {
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  min-width: 950px;
+  background-color: #6B728E;
+}
+
+.prompt-container pre {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+}
+
+.image-chat-container {
+  order: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.game-image {
+  width: 550px;
+  margin: 20px 20px;
+}
+
+.game-image h4 {
+  background-color: #C7BCA1;
+  font-size: 1em;
+  padding: 3px;
+  margin-top: -10px;
+  border-radius: 30px;
+}
+
+.points-gain-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #6B728E;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.points-gain-list h3 {
+  text-decoration: underline;
+  color: black;
+}
+
+.points-gain-list-player h4 {
+  color: white;
+  background: none;
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+
+.points-gain-list-player span {
+  color: darkgreen;
+}
+
+.game-chat {
+  width: 450px;
+  margin-right: 20px;
+}
+
+.game-chat .chat-window {
+  width: 450px;
+  height: 690px;
+}
+
+.game-chat .chat-header {
+  width: 380px;
+}
+
+.game-chat .chat-body {
+  margin-bottom: 10px;
+  width: 380px;
+  height: 600px;
+  background-color: lightgray;
+}
+
+.game-chat .message-container {
+  text-align: left;
+  padding: 10px 5px;
+  height: 540px;
+}
+
+.game-chat .chat-footer {
+  width: 80%;
+}
+
+*:disabled {
+  background-color: rgb(153, 0, 0);
+}
+
+/* Postgame Page */
+
+.postgame-header-container {
+  text-align: center;
+}
+
+.postgame-header-container h1 {
+  color: white;
+  text-shadow: 1px 1px #202020;
+  font-size: 3.8em;
+  margin-bottom: 0;
+}
+
+.postgame-header-container .lobby {
+  margin: 50px;
+}
+
+.postgame-header-container .player-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.postgame-btn-container{
+  align-items: center;
+  text-align: center;
+}
+
+.return-btn {
+  margin-top: 10px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  background-color: #C7BCA1;
+  cursor: pointer;
+  color: #202020;
+  margin-right: 50px;
+}
+
+.return-btn:hover {
+  background-color: #8B7E74;
+  color: black;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 1.4em;
+  background-color: #C7BCA1;
+  cursor: pointer;
+  color: #202020;
+}
+
+.reset-btn:hover {
+  background-color: #8B7E74;
+  color: black;
+}
