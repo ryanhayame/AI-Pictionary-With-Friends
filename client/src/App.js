@@ -12,7 +12,7 @@ import PostGame from './PostGame';
 
 // socket stuff
 import io from "socket.io-client";
-export const socket = io("https://server-test-production-cd09.up.railway.app", {
+export const socket = io("INPUT YOUR OWN SERVER ADDRESS HERE", {
   extraHeaders: {
     'Access-Control-Allow-Origin': '*'
   }
