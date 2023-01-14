@@ -27,6 +27,7 @@ HTML, CSS, JavaScript, React, Express, and Socket.io
 - Learned how to publically deploy a full stack web application with a separately hosted front end and back end
 - Learned how to use socket.io to connect multiple websockets and send data between clients and server in real-time
 - Learned how to work with AI / stable diffusion / machine learning / data models
+- scalability
 
 
 ## How to Run the Program Locally:
