@@ -32,7 +32,7 @@ HTML, CSS, JavaScript, React, Express, and Socket.io
 - scalability
 
 
-## How to Run the Program Locally:
+## How to Run Locally:
 - cd .\server\
 - npm install
 - npm start
@@ -40,7 +40,7 @@ HTML, CSS, JavaScript, React, Express, and Socket.io
 - npm install
 - npm start
 
-## How to Run the Program Online:
+## How to Run Online:
 - upload server file to server/back end hosting website ex. Railway
 - replace "https://localhost3001/" on line 16 in client/src/App.js with "https://yourserverdomain.com"
 - upload client file to front end hosting website ex. netlify
