@@ -18,7 +18,7 @@ https://aipictionarywithfriends.netlify.app/
 ![](/screenshots/1.png)
 
 ## Tech Stack:
-HTML, CSS, JavaScript, React, Express, and Socket.io
+HTML, CSS, JavaScript, React, Express, Node, and Socket.io
 
 ## Challenges and Lessons Learned:
 - Understanding the complexities involved in online multiplayer web applications where users are constantly sending/requesting information or connecting/disconnecting
