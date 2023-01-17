@@ -1,5 +1,5 @@
 # AI-Pictionary-With-Friends
-## An online multiplayer web game of Pictionary where you use AI/stable diffusion to generate your pictures
+## An original, online multiplayer web game of Pictionary where you use AI/stable diffusion to generate your pictures
 
 ## Features:
 - Real-time online chat messaging and private lobbies via Socket.io integration
