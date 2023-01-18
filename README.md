@@ -45,8 +45,8 @@ HTML, CSS, JavaScript, React, Express, Node, and Socket.io
   - Learning how this can lead to multiple bugs and discrepancies between individual clients
   - Dealing with so many constant state changes without trying to cause multiple page re-renders
 - Being able to adapt and modify code for better scalability
-  - Ran into problems when running publically online vs locally
-- Learned how to publically deploy a full stack web application with a separately hosted front end and back end
+  - Ran into problems when running publicly online vs locally
+- Learned how to publicly deploy a full stack web application with a separately hosted front end and back end
 - Learned how to use socket.io to connect multiple websockets and send data between clients and server in real-time
 - Learned how to work with AI / stable diffusion / machine learning / data models
 
