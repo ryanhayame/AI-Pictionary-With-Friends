@@ -12,6 +12,7 @@
 https://aipictionarywithfriends.netlify.app/
 
 ## Full Demo Video:
+![](/screenshots/demo.gif)
 
 ## Screenshots:
 #### Main Menu
