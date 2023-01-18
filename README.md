@@ -11,7 +11,7 @@
 ## Live Demo:
 https://aipictionarywithfriends.netlify.app/
 
-## Full Demo Video:
+## Full Demo Video (1 min):
 ![](/screenshots/demo.gif)
 
 ## Screenshots:
