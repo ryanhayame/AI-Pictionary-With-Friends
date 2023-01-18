@@ -15,7 +15,26 @@ https://aipictionarywithfriends.netlify.app/
 
 ## Screenshots:
 #### Main Menu
-![](/screenshots/1.png)
+![](/screenshots/mainmenu.png)
+
+#### Room Lobby
+![](/screenshots/lobby.png)
+
+#### Upload Prompt/Image Page
+![](/screenshots/stablediffusion1.png)
+![](/screenshots/stablediffusion2.png)
+
+#### PreGame
+![](/screenshots/pregame.png)
+
+#### Guessing Phase
+![](/screenshots/game.png)
+
+#### Between Rounds
+![](/screenshots/betweenrounds.png)
+
+#### End Game Leaderboard
+![](/screenshots/endleaderboard.png)
 
 ## Tech Stack:
 HTML, CSS, JavaScript, React, Express, Node, and Socket.io
