@@ -18,7 +18,7 @@ function StableDiffDemo(props) {
             room: props.room,
             prompt: prompt.toLowerCase()
         };
-        await socket.emit("upload", imageObject);
+        socket.emit("upload", imageObject);
         props.changePhase();
     }
 

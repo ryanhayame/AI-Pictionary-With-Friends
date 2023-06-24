@@ -30,7 +30,7 @@ function Form(props) {
         if (!isNumeric(formData.room)) {
             alert("Room number must be an integer");
         } else if (formData.username && formData.room) {
-            await socket.emit("join_room", formData);
+            socket.emit("join_room", formData);
             props.setUsername(formData.username);
             props.setRoom(formData.room);
         } else {

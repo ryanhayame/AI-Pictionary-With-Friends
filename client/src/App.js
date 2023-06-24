@@ -12,8 +12,7 @@ import PostGame from './PostGame';
 
 // socket stuff
 import io from "socket.io-client";
-// replace "https://localhost3001/" with own server domain if running online
-export const socket = io("https://localhost3001/", {
+export const socket = io("https://server-test-production-cd09.up.railway.app", {
   extraHeaders: {
     'Access-Control-Allow-Origin': '*'
   }

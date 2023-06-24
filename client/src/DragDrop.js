@@ -1,7 +1,7 @@
 import React from "react";
 import { FileUploader } from "react-drag-drop-files";
 
-const fileTypes = ["JPG", "PNG", "JFIF"];
+const fileTypes = ["JPG", "PNG", "JFIF", "JPEG"];
 
 function DragDrop(props) {
 
@@ -10,7 +10,9 @@ function DragDrop(props) {
   };
   
   return (
-    <FileUploader handleChange={handleChange} name="file" types={fileTypes} />
+    <div className="upload-container">
+      <FileUploader handleChange={handleChange} label="Upload or drop a file here" name="file" types={fileTypes} />
+    </div>
   );
 }
 
