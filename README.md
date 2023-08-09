@@ -1,4 +1,4 @@
-# AI-Pictionary-With-Friends
+# AI Pictionary With Friends
 ## An original, online multiplayer web game of Pictionary where you use AI/stable diffusion to generate your pictures
 
 ## Features:
